@@ -1,0 +1,13 @@
+run_name,activation,init,optimizer,lr,final_test_accuracy,final_test_loss
+baseline_relu_default_adam_lr01,relu,default,adam,0.01,10.28,2.3020
+act_tanh_xavier_adam_lr01,tanh,xavier,adam,0.01,95.47,0.6486
+act_sigmoid_xavier_adam_lr01,sigmoid,xavier,adam,0.01,9.74,2.5448
+act_leakyrelu_kaiming_adam_lr01,leaky_relu,kaiming,adam,0.01,10.09,26.9133
+opt_relu_kaiming_sgd_lr01,relu,kaiming,sgd,0.01,99.09,0.0279
+opt_relu_kaiming_sgdmom_lr01,relu,kaiming,sgd_momentum,0.01,99.30,0.0249
+opt_relu_kaiming_adagrad_lr01,relu,kaiming,adagrad,0.01,99.07,0.0263
+baseline_relu_default_adam_lr001,relu,default,adam,0.001,99.10,0.0381
+act_tanh_xavier_adam_lr001,tanh,xavier,adam,0.001,99.02,0.0448
+act_sigmoid_xavier_adam_lr001,sigmoid,xavier,adam,0.001,99.03,0.0334
+act_leakyrelu_kaiming_adam_lr001,leaky_relu,kaiming,adam,0.001,98.99,0.0476
+act_maxout_kaiming_adam_lr001,maxout,kaiming,adam,0.001,97.65,0.6879
