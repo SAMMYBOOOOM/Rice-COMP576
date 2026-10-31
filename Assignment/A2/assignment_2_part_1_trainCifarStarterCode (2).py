@@ -153,8 +153,11 @@ class LeNet5(nn.Module):
         )
 
         self.classifier = nn.Sequential(
-            nn.Linear(final_length*final_length*layer_2_n_filters*in_channels, fc_1_n_nodes),
+            nn.Linear(final_length*final_length*layer_2_n_filters, fc_1_n_nodes),
             nn.Tanh(),
+
+            [insert-code]
+            
             nn.Linear(fc_1_n_nodes, num_classes)
         )
 
